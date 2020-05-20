@@ -1,0 +1,43 @@
+name: homiegram
+description: HomieGram is a  Instagram clone developed with Flutter
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.6.6+1
+  firebase_storage: ^3.1.5
+  firebase_auth: ^0.16.0
+  cloud_firestore: ^0.13.5
+  google_sign_in: ^4.4.6
+  firebase_messaging: ^6.0.15
+  geolocator: ^5.3.1
+  uuid: ^2.0.4
+  image: ^2.1.4
+  animator: ^2.0.0
+  cupertino_icons: ^0.1.2
+  path_provider: ^1.6.8
+  timeago: ^2.0.26
+  cached_network_image: ^2.2.0+1
+  flutter_svg: ^0.17.4
+  google_fonts: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Signatra
+      fonts:
+        - asset: assets/fonts/Signatra.ttf
+  assets:
+    - assets/images/
